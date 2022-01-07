@@ -529,7 +529,57 @@ background:rgba(0, 0, 0, 0.9);
 padding: 3px 7px;
 border-radius: 30px;
 }
+/* Find Us */
+.locate{
+    margin-top: 60px;
+    font-size: 18px;
+    color: #000;
+    line-height: 2;
+}
+.locate span{
+    color: #fa2e2e;
+}
+.locate .section-head h4 {
+    position: relative;
+    padding:0;
+    color:#fa2e2e;
+    line-height: 1;
+    letter-spacing:0.3px;
+    font-size: 34px;
+    font-weight: 700;  
+    text-align:center;
+    text-transform:none;
+    margin-bottom:50px;
+}
+.locate .section-head h4:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #fa2e2e;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right:0;  
+    margin:0 auto;
+    }
+.locate iframe{
+    margin-left: 90px;
+}
+.locate .button {
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #fa2e2e;
+    color: #fff;
+    padding: 1rem 3rem;
+    border: 3px solid transparent;
+    border-radius: 100px;
+}
 
+.locate .button:hover{
+    background-color: rgba(250,46,46,.7);
+}
+  
 /* Contact Us */
 .contact{
     margin-top: 60px;
